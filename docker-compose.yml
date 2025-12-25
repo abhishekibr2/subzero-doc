@@ -45,7 +45,7 @@ services:
     image: steveltn/https-portal
     env_file: ./docker.env
     ports:
-      - '80:80'
+      - '85:85'
       - '443:443'
     links:
       - outline
